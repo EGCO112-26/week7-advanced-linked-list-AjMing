@@ -144,7 +144,6 @@ if ( isEmpty( currentPtr ) ) {
         
          currentPtr = currentPtr->nextPtr;
       } // end while
-
       while ( currentPtr->pPtr!= NULL ) {
          printf( "%d %s -->", currentPtr->data,currentPtr->name );
          currentPtr = currentPtr->pPtr;
